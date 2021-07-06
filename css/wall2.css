@@ -1,27 +1,23 @@
-* {box-sizing: border-box;margin-left: auto;
-  margin-right: auto;}
+* {box-sizing: border-box;}
 
 .img-comp-container {
+
   position: relative;
-  height: 500px; /*should be the same height as the images*/
-  margin-bottom: 30px;
-  
+  height: 40rem; /*should be the same height as the images*/
+
 }
 
 
 .img-comp-img {
+  display:block;
   position: absolute;
   width: auto;
   height: auto;
   overflow:hidden;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .img-comp-img img {
   display:block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .img-comp-slider {

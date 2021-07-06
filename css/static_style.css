@@ -64,9 +64,9 @@ nav{
 
     position: fixed;
     top: 0;
-    left: 235px;
-    max-height: 54px;
-    max-width: 54px;
+    left: 16rem;
+    max-height: 56px;
+    max-width: 56px;
     padding: 0px;
     width: 100%;
     z-index: 10;
