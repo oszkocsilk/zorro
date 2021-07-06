@@ -1,0 +1,64 @@
+
+.greeting{
+	padding: 50px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.block{
+
+	max-width: 500px;
+	max-height: 500px;
+	margin: 0;
+	border: 3px solid #ff6500;
+	padding: 1%
+
+}
+
+
+div.block img{
+
+	max-width: 100%;
+	max-height: 100%;
+
+}
+div.block{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+
+}
+
+.blocks_in_line li{
+	display: inline-block;
+	font-weight:bold;
+	margin: 1%;
+
+}
+
+.block:hover{
+	transform: scale(1.05);
+	background-color: white;
+	color: #ff6000;
+	transition: all 0.5s ease 0s;
+	z-index: 1;
+}
+
+
+
+.blocks_in_line{
+	text-align: center;
+	padding: 0;
+
+}
+
+.standing{
+	transform: rotate(90deg);
+}
+footer {
+
+	position: static;
+}
+
+
+
