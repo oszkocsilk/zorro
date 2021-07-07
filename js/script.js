@@ -26,10 +26,12 @@ function initComparisons() {
     slider.addEventListener("mousedown", slideReady);
     /*and another function when the mouse button is released:*/
     window.addEventListener("mouseup", slideFinish);
+
     /*or touched (for touch screens:*/
     slider.addEventListener("touchstart", slideReady);
     /*and released (for touch screens:*/
     window.addEventListener("touchend", slideFinish);
+
     function slideReady(e) {
       /*prevent any other actions that may occur when moving over the image:*/
       e.preventDefault();
