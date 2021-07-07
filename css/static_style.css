@@ -65,8 +65,10 @@ nav{
     position: fixed;
     top: 0;
     left: 16rem;
-    max-height: 56px;
-    max-width: 56px;
+    max-height: 54px;
+    max-width: 54px;
+    margin-top: auto;
+    margin-bottom: auto;
     padding: 0px;
     width: 100%;
     z-index: 10;

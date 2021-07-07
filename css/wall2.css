@@ -7,6 +7,10 @@
 
 }
 
+.img-comp-container:last-child{
+
+  margin-bottom: 40px;
+}
 
 .img-comp-img {
   display:block;
