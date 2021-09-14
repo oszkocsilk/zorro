@@ -38,8 +38,9 @@ function initComparisons() {
       /*the slider is now clicked and ready to move:*/
       clicked = 1;
       /*execute a function when the slider is moved:*/
-      window.addEventListener("mousemove", slideMove);
       window.addEventListener("touchmove", slideMove);
+
+      window.addEventListener("mousemove", slideMove);
     }
     function slideFinish() {
       /*the slider is no longer clicked:*/
@@ -62,8 +63,16 @@ function initComparisons() {
       e = e || window.event;
       /*get the x positions of the image:*/
       a = img.getBoundingClientRect();
+      
       /*calculate the cursor's x coordinate, relative to the image:*/
       x = e.pageX - a.left;
+    
+      if(e.changedTouches){
+        for (let i=0; i < e.changedTouches.length; i++) {
+          x= e.changedTouches[i].pageX- a.left;
+        }
+      }
+      
       /*consider any page scrolling:*/
       x = x - window.pageXOffset;
       return x;
