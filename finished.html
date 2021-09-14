@@ -7,8 +7,9 @@
     <meta name="author" content="Oszkocsil Krisztián">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="css/static_style.css">
     <link rel="stylesheet" type="text/css" href="css/finished_gallery.css">
+    <link rel="stylesheet" type="text/css" href="css/static_style.css">
+
     <link rel="icon" type="image/png" href="img/mainpage/favicon.png">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -24,7 +25,7 @@
 
 
     <div class="logo">Zorro BT</div>
-    <img loading="lazy" class="logo_pic" src="img/mainpage/logo.png" style="max-width: 56px; max-height: 56px;" >
+    <img loading="lazy" class="logo_pic" src="img/mainpage/logo.png" >
     <nav>
         <ul class="nav_links">
             <li><a href="index.html">Főoldal</a></li>
@@ -40,16 +41,20 @@
 
 </header>
 
+<script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous">
+</script>
 
 <script type="text/javascript">
-    $(document).ready(function(){
-        $('.hamburger').click(function(){
-            $('.nav_links').toggleClass('active')
-        })
+  $(document).ready(function(){
+    $('.hamburger').click(function(){
+      $('.nav_links').toggleClass('active')
     })
-
-
+  })
 </script>
+
 
     <body>
     
